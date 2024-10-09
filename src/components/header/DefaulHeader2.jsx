@@ -49,7 +49,7 @@ const DefaulHeader2 = () => {
                 </li>
                 <li className="border-l-2"></li>
                 <li>
-                  <a href="https://employer.Abroadium.co.uk/">
+                  <a href="https://employer.abroadium.com/">
                     <i className="fa-solid fa-user"></i> Post Job
                   </a>
                 </li>
