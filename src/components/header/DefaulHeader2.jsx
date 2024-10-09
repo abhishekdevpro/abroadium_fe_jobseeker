@@ -114,7 +114,7 @@ const DefaulHeader2 = () => {
               {!userToken && (
                 <Link to={"/sentry-spot"}>
                   <button type="button" className="register-btn hidden lg:flex ">
-                    Create Your Sentry ID
+                    Create Your AbroadiumID
                   </button>
                 </Link>
               )}

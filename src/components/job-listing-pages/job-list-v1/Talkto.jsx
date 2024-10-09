@@ -14,12 +14,12 @@ With Abroadium’s unique community platform, you can engage with experts who ha
 <h1 className="text-2xl font-semibold my-2 mt-5 ">Step-by-Step Guide to Connecting with Industry Experts
 </h1>  
 
-<h1 className="text-2xl font-semibold my-2 mt-5 ">Create Your Sentry ID</h1>
- The first step to unlocking all the benefits of Abroadium’s career services, including access to industry experts, is creating your Sentry ID. This unique ID will serve as your gateway to all the exclusive features available on our platform, including the expert community.
+<h1 className="text-2xl font-semibold my-2 mt-5 ">Create Your AbroadiumID</h1>
+ The first step to unlocking all the benefits of Abroadium’s career services, including access to industry experts, is creating your AbroadiumID. This unique ID will serve as your gateway to all the exclusive features available on our platform, including the expert community.
 
 <h1 className="text-2xl font-semibold my-2 mt-5">Access the Community Option
 </h1> 
- Once your Sentry ID is set up, head over to the community section of the platform. This section is where job seekers, like yourself, can interact with professionals from various fields. Whether you're in cybersecurity, IT, finance, or management, there's an expert available who understands the nuances of your industry.
+ Once your AbroadiumID is set up, head over to the community section of the platform. This section is where job seekers, like yourself, can interact with professionals from various fields. Whether you're in cybersecurity, IT, finance, or management, there's an expert available who understands the nuances of your industry.
 
 <h1 className="text-2xl font-semibold my-2 mt-5">Ask Questions and Get Personalized Advice
 
@@ -71,10 +71,10 @@ According to studies, 87% of successful professionals credit their achievements 
 
 <h1 className="text-2xl font-semibold my-2 mt-5">Get Started Today!
 </h1> 
-Ready to take control of your career and get the advice you need to succeed? Sign up on Abroadium.co.uk, create your Sentry ID, and start asking your questions today. Connect with industry experts who are ready to guide you on your career journey and help you unlock new opportunities.
+Ready to take control of your career and get the advice you need to succeed? Sign up on Abroadium.co.uk, create your AbroadiumID, and start asking your questions today. Connect with industry experts who are ready to guide you on your career journey and help you unlock new opportunities.
 
 
-<h1 className="text-2xl font-semibold my-2 mt-5">Create Your Sentry ID and Ask the Experts!
+<h1 className="text-2xl font-semibold my-2 mt-5">Create Your AbroadiumID and Ask the Experts!
 
 </h1>  Don’t wait—get career advice that can transform your future! Join the Abroadium community and start building your path to success with expert insights today.
 

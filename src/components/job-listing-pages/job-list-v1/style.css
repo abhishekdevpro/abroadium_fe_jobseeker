@@ -55,7 +55,7 @@
       padding: 10px 0;
   }
   .TopSocial i {
-      background: #f7db6f;
+      background: #c42eb5;
       color: #0f0d30;
       font-size: 18px;
       padding: 10px;
@@ -101,7 +101,7 @@
       cursor: pointer;
   }
   .side-menu button:hover{
-      background-color: #f7db6f;
+      background-color: #c42eb5;
   }
   button.register-btn {
       background: transparent;
@@ -120,7 +120,7 @@
   .header {
       width: 100%;
       text-align: -webkit-center;
-      background: #f7db6f;
+      background: #c42eb5;
       box-shadow: 0 10px 30px 0 rgba(0, 0, 0, .05);
   }
   .header-menu {
@@ -192,11 +192,11 @@
       margin: 0;
       font-size: 18px;
       font-weight: 500;
-      color: #f7db6f;
+      color: #c42eb5;
   }
   .BannerTextDowe p{
       margin: 10px 0;
-      color: #f7db6f;
+      color: #c42eb5;
       text-transform: uppercase;
   
   }
@@ -209,7 +209,7 @@
   }
   .NavPre {
       font-size: 20px;
-      background: #f7db6f;
+      background: #c42eb5;
       color: #0d0d30;
       width: 50px;
       height: 50px;
@@ -221,7 +221,7 @@
   }
   .NavNext {
       font-size: 20px;
-      background: #f7db6f;
+      background: #c42eb5;
       color: #0d0d30;
       width: 50px;
       height: 50px;
@@ -238,7 +238,7 @@
   .BannerContent h2 {
       font-size: 18px;
       text-transform: uppercase;
-      color: #f7db6f;
+      color: #c42eb5;
       margin: 0;
       font-weight: lighter;
       margin-bottom: 10px;
@@ -269,7 +269,7 @@
       border: none;
   }
   .BannerBtn button:hover {
-      background:#f7db6f;
+      background:#c42eb5;
   }
   .ServiceCard {
       width: 100%;
@@ -278,7 +278,7 @@
   }
   .CardTop p {
       font-size: 18px;
-      color: #f7db6f;
+      color: #c42eb5;
       margin: 0;
       margin-bottom: 20px;
       text-transform: uppercase;
@@ -319,7 +319,7 @@
       color: white;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
-      background: #f7db6f;
+      background: #c42eb5;
       padding: 20px;
       border-radius: 100%;
   }
@@ -365,7 +365,7 @@
   }
   .heading-md{
       font-size: 20px;
-      color: #f7db6f;
+      color: #c42eb5;
   }
   .button-tertiary {
       font-size: 16px;
@@ -507,7 +507,7 @@
   }
   .FaqText p{
       font-size: 18px;
-      color: #f7db6f;
+      color: #c42eb5;
       margin: 0;
       margin-bottom: 20px;
       text-transform: uppercase;   
@@ -525,7 +525,7 @@
   .FaqBtn button{
       padding: 16px 32px;
       border:none;
-      background-color: #f7db6f;
+      background-color: #c42eb5;
       border-radius: 20px;
       cursor: pointer;
       font-size: 14px;
@@ -571,7 +571,7 @@
   }
   .HelpBox p {
       font-size: 18px;
-      color: #f7db6f;
+      color: #c42eb5;
       margin: 0;
       margin-bottom: 20px;
       text-transform: uppercase;
@@ -637,7 +637,7 @@
   }
   .StatsSlider h2{
       font-size: 18px;
-      color: #f7db6f;
+      color: #c42eb5;
       margin: 0;
       margin-bottom: 10px;
   }
@@ -679,7 +679,7 @@
   .Job-Tab a {
       padding: 5px 10px;
       color: #0e0d30;
-      background: #f7db6f;
+      background: #c42eb5;
       text-decoration: none;
       border-radius: 20px;
       font-size: 14px;
@@ -713,7 +713,7 @@
   .Category {
       width: 150px;
       text-align: left;
-      background: #f7db6f;
+      background: #c42eb5;
       padding: 10px 20px;
       margin-bottom: 20px;
       border-radius: 20px;
@@ -746,7 +746,7 @@
       color: #fff;
   }
   .BlogBtn button:hover{
-      background-color: #f7db6f;
+      background-color: #c42eb5;
   }
   .Talk {
       width: 100%;
@@ -785,7 +785,7 @@
   }
   .TalkBox a{
       padding: 16px 32px;
-      background-color: #f7db6f;
+      background-color: #c42eb5;
       font-size: 14px;
       text-decoration: none;
       color: #0e0d30;
@@ -842,7 +842,7 @@
       width: 100%;
       text-align: -webkit-center;
       margin-top: 100px;
-      background: #f7db6f;
+      background: #c42eb5;
   }
   .FooterCTA {
       display: flex;
@@ -938,7 +938,7 @@
   
   .tab {
     overflow: hidden;
-    border-bottom: 1px solid #f7db6f;
+    border-bottom: 1px solid #c42eb5;
     margin-top: 50px;
   }
   
@@ -959,7 +959,7 @@
   
   /* Create an active/current tablink class */
   .tab button.active {
-      border-bottom: 2px solid #f7db6f;
+      border-bottom: 2px solid #c42eb5;
   }
   
   /* Style the tab content */
@@ -978,7 +978,7 @@
   }
   .TabHead h2{
       font-size: 36px;
-      color: #f7db6f;
+      color: #c42eb5;
       margin: 0;
       margin-bottom: 20px;
   }
@@ -1031,7 +1031,7 @@
       font-size: 18px;
       margin: 0;
       margin-bottom: 10px;
-      color: #f7db6f;
+      color: #c42eb5;
       padding: 10px;
   }
   .InnerSlider p{
@@ -1077,7 +1077,7 @@
       letter-spacing: 1px;
   }
   .TopMenu ul li a:hover{
-      color: #f7db6f;
+      color: #c42eb5;
   }
 
 

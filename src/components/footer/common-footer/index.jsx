@@ -10,7 +10,7 @@ const index = ({ footerStyle = "" }) => {
 			<div class="menu-section">
 				<div class="footer-one">
 					<div class="logo">
-						<img src="https://abroadiumlanding.vercel.app/img/Abradium_logo.png"/>
+						<img src="https://abroadiumlanding.vercel.app/img/Abradium_logo_white.png"/>
 						<div class="social-mdeai">
 							<a href=""><i class="fa-brands fa-linkedin-in"></i></a>
 							<a href=""><i class="fa-brands fa-facebook"></i></a>

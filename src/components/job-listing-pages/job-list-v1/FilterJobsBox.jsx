@@ -138,7 +138,7 @@ const FilterJobsBox = () => {
                       <div className="BannerTextUpper">
                         <i className="fa-solid fa-medal" />
                         <span>
-                          <h2><strong>Managed documentation</strong> in Sentry ID</h2>
+                          <h2><strong>Managed documentation</strong> in AbroadiumID</h2>
                         </span>
                       </div>
                       <div className="BannerTextUpper">
