@@ -82,7 +82,7 @@ const DefaulHeader2 = () => {
                       <a href="/sentry-spot">AI Services</a>
                     </li>
                     <li>
-                      <a href="https://blog.sentryspot.co.uk/category/job-search-strategies/">Hiring Advice</a>
+                      <a href="https://blog.abroadium.com/">Hiring Advice</a>
                     </li>
                     <li>
                       <a href="">Companies</a>
