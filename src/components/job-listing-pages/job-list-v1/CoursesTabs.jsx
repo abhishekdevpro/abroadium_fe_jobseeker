@@ -15,43 +15,43 @@ const CoursesTabs = () => {
 
   const tabContent = {
     '1': {
-      img: 'https://htmlsentryspot.vercel.app/img/Tab1.webp',
+      img: 'https://abroadiumlanding.vercel.app/img/Tab1.webp',
       header: 'Health and Safety',
       description: '#1 Most popular topic on Hurak',
       link: 'Explore Health and Safety Courses',
       courses: [
         {
-          img: 'https://htmlsentryspot.vercel.app/img/InnerSlider.webp',
+          img: 'https://abroadiumlanding.vercel.app/img/InnerSlider.webp',
           title: 'IOSH Working Safely Course',
           providers: '1 Course Providers',
           price: '£107',
         },
         {
-          img: 'https://htmlsentryspot.vercel.app/img/InnerSlider.webp',
+          img: 'https://abroadiumlanding.vercel.app/img/InnerSlider.webp',
           title: 'IOSH Working Safely Course',
           providers: '1 Course Providers',
           price: '£107',
         },
         {
-            img: 'https://htmlsentryspot.vercel.app/img/InnerSlider.webp',
+            img: 'https://abroadiumlanding.vercel.app/img/InnerSlider.webp',
             title: 'IOSH Working Safely Course',
             providers: '1 Course Providers',
             price: '£107',
           },
           {
-            img: 'https://htmlsentryspot.vercel.app/img/InnerSlider.webp',
+            img: 'https://abroadiumlanding.vercel.app/img/InnerSlider.webp',
             title: 'IOSH Working Safely Course',
             providers: '1 Course Providers',
             price: '£107',
           },
           {
-            img: 'https://htmlsentryspot.vercel.app/img/InnerSlider.webp',
+            img: 'https://abroadiumlanding.vercel.app/img/InnerSlider.webp',
             title: 'IOSH Working Safely Course',
             providers: '1 Course Providers',
             price: '£107',
           },
           {
-            img: 'https://htmlsentryspot.vercel.app/img/InnerSlider.webp',
+            img: 'https://abroadiumlanding.vercel.app/img/InnerSlider.webp',
             title: 'IOSH Working Safely Course',
             providers: '1 Course Providers',
             price: '£107',
@@ -60,19 +60,19 @@ const CoursesTabs = () => {
       ],
     },
     '2': {
-        img: 'https://htmlsentryspot.vercel.app/img/Tab1.webp',
+        img: 'https://abroadiumlanding.vercel.app/img/Tab1.webp',
         header: 'Health and Safety',
         description: '#1 Most popular topic on Hurak',
         link: 'Explore Health and Safety Courses',
         courses: [
           {
-            img: 'https://htmlsentryspot.vercel.app/img/InnerSlider.webp',
+            img: 'https://abroadiumlanding.vercel.app/img/InnerSlider.webp',
             title: 'IOSH Working Safely Course',
             providers: '1 Course Providers',
             price: '£107',
           },
           {
-            img: 'https://htmlsentryspot.vercel.app/img/InnerSlider.webp',
+            img: 'https://abroadiumlanding.vercel.app/img/InnerSlider.webp',
             title: 'IOSH Working Safely Course',
             providers: '1 Course Providers',
             price: '£107',
@@ -80,25 +80,25 @@ const CoursesTabs = () => {
         ],
       },
       '3': {
-        img: 'https://htmlsentryspot.vercel.app/img/Tab1.webp',
+        img: 'https://abroadiumlanding.vercel.app/img/Tab1.webp',
         header: 'Health and Safety',
         description: '#1 Most popular topic on Hurak',
         link: 'Explore Health and Safety Courses',
         courses: [
           {
-            img: 'https://htmlsentryspot.vercel.app/img/InnerSlider.webp',
+            img: 'https://abroadiumlanding.vercel.app/img/InnerSlider.webp',
             title: 'IOSH Working Safely Course',
             providers: '1 Course Providers',
             price: '£107',
           },
           {
-            img: 'https://htmlsentryspot.vercel.app/img/InnerSlider.webp',
+            img: 'https://abroadiumlanding.vercel.app/img/InnerSlider.webp',
             title: 'IOSH Working Safely Course',
             providers: '1 Course Providers',
             price: '£107',
           },
           {
-            img: 'https://htmlsentryspot.vercel.app/img/InnerSlider.webp',
+            img: 'https://abroadiumlanding.vercel.app/img/InnerSlider.webp',
             title: 'IOSH Working Safely Course',
             providers: '1 Course Providers',
             price: '£107',
@@ -130,7 +130,7 @@ const CoursesTabs = () => {
         <div className="">
           <div className="flex items-center mb-6">
           <div className="TabContentHeadr">
-                <img src="https://htmlsentryspot.vercel.app/img/Tab1.webp" />
+                <img src="https://abroadiumlanding.vercel.app/img/Tab1.webp" />
                 <div className="TabIMgContent">
                   <h4>Health and Safety</h4>
                   <p>#1 Most popular topic on Hurak</p>

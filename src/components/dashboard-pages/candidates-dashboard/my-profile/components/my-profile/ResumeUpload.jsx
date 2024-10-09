@@ -57,7 +57,7 @@ const ResumeUpload = () => {
           />
         </div>
         <div className="text-xs mt-2">(Accepted format includes PDF)</div>
-        <button onClick={handleUpload} className="bg-blue-900 text-white px-2 py-1 rounded-sm mt-2">
+        <button onClick={handleUpload} className="bg-violet-900 text-white px-2 py-1 rounded-sm mt-2">
           Upload Resume
         </button>
         {uploadStatus && <div className="mt-2 text-sm">{uploadStatus}</div>}

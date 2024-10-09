@@ -22,43 +22,43 @@ const Courselist = () => {
 
   const tabContent = {
     '1': {
-      img: 'https://htmlsentryspot.vercel.app/img/Tab1.webp',
+      img: 'https://abroadiumlanding.vercel.app/img/Tab1.webp',
       header: 'Health and Safety',
       description: '#1 Most popular topic on Hurak',
       link: 'Explore Health and Safety Courses',
       courses: [
         {
-          img: 'https://htmlsentryspot.vercel.app/img/InnerSlider.webp',
+          img: 'https://abroadiumlanding.vercel.app/img/InnerSlider.webp',
           title: 'IOSH Working Safely Course',
           providers: '1 Course Providers',
           price: '£107',
         },
         {
-          img: 'https://htmlsentryspot.vercel.app/img/InnerSlider.webp',
+          img: 'https://abroadiumlanding.vercel.app/img/InnerSlider.webp',
           title: 'IOSH Working Safely Course',
           providers: '1 Course Providers',
           price: '£107',
         },
         {
-            img: 'https://htmlsentryspot.vercel.app/img/InnerSlider.webp',
+            img: 'https://abroadiumlanding.vercel.app/img/InnerSlider.webp',
             title: 'IOSH Working Safely Course',
             providers: '1 Course Providers',
             price: '£107',
           },
           {
-            img: 'https://htmlsentryspot.vercel.app/img/InnerSlider.webp',
+            img: 'https://abroadiumlanding.vercel.app/img/InnerSlider.webp',
             title: 'IOSH Working Safely Course',
             providers: '1 Course Providers',
             price: '£107',
           },
           {
-            img: 'https://htmlsentryspot.vercel.app/img/InnerSlider.webp',
+            img: 'https://abroadiumlanding.vercel.app/img/InnerSlider.webp',
             title: 'IOSH Working Safely Course',
             providers: '1 Course Providers',
             price: '£107',
           },
           {
-            img: 'https://htmlsentryspot.vercel.app/img/InnerSlider.webp',
+            img: 'https://abroadiumlanding.vercel.app/img/InnerSlider.webp',
             title: 'IOSH Working Safely Course',
             providers: '1 Course Providers',
             price: '£107',
@@ -67,19 +67,19 @@ const Courselist = () => {
       ],
     },
     '2': {
-        img: 'https://htmlsentryspot.vercel.app/img/Tab1.webp',
+        img: 'https://abroadiumlanding.vercel.app/img/Tab1.webp',
         header: 'Health and Safety',
         description: '#1 Most popular topic on Hurak',
         link: 'Explore Health and Safety Courses',
         courses: [
           {
-            img: 'https://htmlsentryspot.vercel.app/img/InnerSlider.webp',
+            img: 'https://abroadiumlanding.vercel.app/img/InnerSlider.webp',
             title: 'IOSH Working Safely Course',
             providers: '1 Course Providers',
             price: '£107',
           },
           {
-            img: 'https://htmlsentryspot.vercel.app/img/InnerSlider.webp',
+            img: 'https://abroadiumlanding.vercel.app/img/InnerSlider.webp',
             title: 'IOSH Working Safely Course',
             providers: '1 Course Providers',
             price: '£107',
@@ -87,25 +87,25 @@ const Courselist = () => {
         ],
       },
       '3': {
-        img: 'https://htmlsentryspot.vercel.app/img/Tab1.webp',
+        img: 'https://abroadiumlanding.vercel.app/img/Tab1.webp',
         header: 'Health and Safety',
         description: '#1 Most popular topic on Hurak',
         link: 'Explore Health and Safety Courses',
         courses: [
           {
-            img: 'https://htmlsentryspot.vercel.app/img/InnerSlider.webp',
+            img: 'https://abroadiumlanding.vercel.app/img/InnerSlider.webp',
             title: 'IOSH Working Safely Course',
             providers: '1 Course Providers',
             price: '£107',
           },
           {
-            img: 'https://htmlsentryspot.vercel.app/img/InnerSlider.webp',
+            img: 'https://abroadiumlanding.vercel.app/img/InnerSlider.webp',
             title: 'IOSH Working Safely Course',
             providers: '1 Course Providers',
             price: '£107',
           },
           {
-            img: 'https://htmlsentryspot.vercel.app/img/InnerSlider.webp',
+            img: 'https://abroadiumlanding.vercel.app/img/InnerSlider.webp',
             title: 'IOSH Working Safely Course',
             providers: '1 Course Providers',
             price: '£107',

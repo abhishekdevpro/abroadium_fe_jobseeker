@@ -61,7 +61,7 @@ const token = localStorage.getItem(Constant.USER_TOKEN)
             {skills.map((skill, index) => (
               <div
                 key={index}
-                className="bg-blue-800 text-white px-2 rounded-xl py-2 flex items-center"
+                className="bg-violet-800 text-white px-2 rounded-xl py-2 flex items-center"
               >
                 <span className="mr-2">{skill}</span>
                 <button
@@ -94,19 +94,19 @@ const token = localStorage.getItem(Constant.USER_TOKEN)
                 className="border-1 py-2 col-lg-8 col-md-12"
                 placeholder="example@gmail.com"
               />
-              <button className="bg-blue-900 text-white px-5 py-2 rounded-md">
+              <button className="bg-violet-900 text-white px-5 py-2 rounded-md">
                 Send
               </button>
             </div>
           </div>
         </div>
         <p className="my-10">
-          You have <strong className="text-blue-700">0 recommendations</strong>. Candidates with recommendations have a higher likelihood of being shortlisted.
+          You have <strong className="text-violet-700">0 recommendations</strong>. Candidates with recommendations have a higher likelihood of being shortlisted.
         </p>
         <div className="form-group col-lg-12 col-md-12">
           <button
             type="submit"
-            className="theme-btn btn-style-one bg-blue-800"
+            className="theme-btn btn-style-one bg-violet-800"
             disabled={loading}
           >
             {loading ? "Saving..." : "Save & Next ➤"}

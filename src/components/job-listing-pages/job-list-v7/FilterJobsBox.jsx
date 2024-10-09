@@ -228,7 +228,7 @@ const FilterJobsBox = () => {
                     type="checkbox"
                     checked={filters.job_type_id === item.id}
                     onChange={() => handleToggle('job_type_id', item.id)}
-                    className="form-checkbox h-5 w-5 text-blue-600"
+                    className="form-checkbox h-5 w-5 text-violet-600"
                   />
                    <span className="slider round"></span>
                   <span className="text-gray-700 title">{item.name}</span>
@@ -250,7 +250,7 @@ const FilterJobsBox = () => {
                     type="checkbox"
                     checked={filters.offered_salary_id === item.id}
                     onChange={() => handleToggle('offered_salary_id', item.id)}
-                    className="form-checkbox h-5 w-5 text-blue-600"
+                    className="form-checkbox h-5 w-5 text-violet-600"
                   />
                    <span className="slider round"></span>
                    <span className="text-gray-700 title">{item.name}</span>
@@ -309,7 +309,7 @@ const FilterJobsBox = () => {
                     type="checkbox"
                     checked={filters.career_level_id === item.id}
                     onChange={() => handleToggle('career_level_id', item.id)}
-                    className="form-checkbox h-5 w-5 text-blue-600"
+                    className="form-checkbox h-5 w-5 text-violet-600"
                   />
                    <span className="slider round"></span>
                   <span className="text-gray-700 title">{item.name}</span>
@@ -328,7 +328,7 @@ const FilterJobsBox = () => {
                     type="checkbox"
                     checked={filters.experience_id === item.id}
                     onChange={() => handleToggle('experience_id', item.id)}
-                    className="form-checkbox h-5 w-5 text-blue-600"
+                    className="form-checkbox h-5 w-5 text-violet-600"
                   />
                    <span className="slider round"></span>
                   <span className="text-gray-700 title">{item.name}</span>
@@ -347,7 +347,7 @@ const FilterJobsBox = () => {
                     type="checkbox"
                     checked={filters.gender_id === item.id}
                     onChange={() => handleToggle('gender_id', item.id)}
-                    className="form-checkbox h-5 w-5 text-blue-600"
+                    className="form-checkbox h-5 w-5 text-violet-600"
                   />
                    <span className="slider round"></span>
                   <span className="text-gray-700 title">{item.name}</span>
@@ -366,7 +366,7 @@ const FilterJobsBox = () => {
                     type="checkbox"
                     checked={filters.industry_id === item.id}
                     onChange={() => handleToggle('industry_id', item.id)}
-                    className="form-checkbox h-5 w-5 text-blue-600"
+                    className="form-checkbox h-5 w-5 text-violet-600"
                   />
                    <span className="slider round"></span>
                   <span className="text-gray-700 title">{item.name}</span>
@@ -385,7 +385,7 @@ const FilterJobsBox = () => {
                     type="checkbox"
                     checked={filters.qualification_id === item.id}
                     onChange={() => handleToggle('qualification_id', item.id)}
-                    className="form-checkbox h-5 w-5 text-blue-600"
+                    className="form-checkbox h-5 w-5 text-violet-600"
                   />
                    <span className="slider round"></span>
                   <span className="text-gray-700 title">{item.name}</span>
@@ -454,16 +454,16 @@ const FilterJobsBox = () => {
               <Link to={`/job-single-v1/${job.id}`}>{job.job_title}</Link>
               <div className="text-sm lg:flex lg:space-x-2">
                 <button
-                  className="p-1 px-2  border-blue-800 rounded-full"
+                  className="p-1 px-2  border-violet-800 rounded-full"
                   onClick={handleApplyNowClick}
                 >
-                  <i className="fas fa-bookmark text-blue-900"></i><p className="hidden lg:flex"> Apply</p>
+                  <i className="fas fa-bookmark text-violet-900"></i><p className="hidden lg:flex"> Apply</p>
                 </button>
                 <button
-                  className="p-1 px-2  border-blue-800 rounded-full"
+                  className="p-1 px-2  border-violet-800 rounded-full"
                   onClick={() => savejob(job.id)}
                 >
-                  <i className="fas fa-heart text-blue-900"></i> <p className="hidden lg:flex">Save</p>
+                  <i className="fas fa-heart text-violet-900"></i> <p className="hidden lg:flex">Save</p>
                 </button>
               </div>
             </h4>

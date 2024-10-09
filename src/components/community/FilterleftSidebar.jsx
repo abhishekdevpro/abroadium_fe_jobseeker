@@ -12,7 +12,7 @@ const FilterleftSidebar = () => {
              <p className="text-xs my-2">
              Get recommendations for recent and relevant jobs.
               </p>
-              <button className="py-1 px-4 m-3 bg-blue-950 text-white">Get Started</button>
+              <button className="py-1 px-4 m-3 bg-violet-950 text-white">Get Started</button>
               
           </div>
           <div className="filters-outer text-center bg-">
@@ -27,7 +27,7 @@ const FilterleftSidebar = () => {
               <p className="text-xs my-2">
               Discover and join groups with like-minded women who share your interests, profession, and lifestyle.
               </p>
-              <button className="my-2 text-blue-950">Explore</button>
+              <button className="my-2 text-violet-950">Explore</button>
           </div>
           <div className="filters-outer text-center">
               
@@ -41,7 +41,7 @@ const FilterleftSidebar = () => {
               <p className="text-xs my-2">
              Get alerted when there are new employee reviews.
               </p>
-              <button className="my-2 text-blue-950">Explore</button>
+              <button className="my-2 text-violet-950">Explore</button>
               
           </div>
       </div>

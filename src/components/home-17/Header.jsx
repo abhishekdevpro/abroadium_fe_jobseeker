@@ -63,7 +63,7 @@ const Header = () => {
               </a>
               <Link
                 to="/employers-dashboard/post-jobs"
-                className="theme-btn bg-blue-950 text-white -rounded"
+                className="theme-btn bg-violet-950 text-white -rounded"
               >
                 Job Post
               </Link>

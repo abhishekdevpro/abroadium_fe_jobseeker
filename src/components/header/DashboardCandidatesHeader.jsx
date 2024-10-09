@@ -51,7 +51,7 @@ const DashboardCandidatesHeader = () => {
         <div className="header-logo flex items-center">
           <a href="/">
             <img
-              src="https://htmlsentryspot.vercel.app/img/company_logo.png"
+              src="https://abroadiumlanding.vercel.app/img/Abradium_logo.png"
               alt="Company Logo"
               className="h-10 w-auto"
             />
@@ -59,17 +59,17 @@ const DashboardCandidatesHeader = () => {
           <div className="main-menu ms-4 hidden md:flex">
             <ul className="flex space-x-4">
               <li>
-                <a href="" className="text-gray-700 hover:text-blue-600">
+                <a href="" className="text-gray-700 hover:text-violet-600">
                   AI Services
                 </a>
               </li>
               <li>
-                <a href="" className="text-gray-700 hover:text-blue-600">
+                <a href="" className="text-gray-700 hover:text-violet-600">
                   Hiring Advice
                 </a>
               </li>
               <li>
-                <a href="" className="text-gray-700 hover:text-blue-600">
+                <a href="" className="text-gray-700 hover:text-violet-600">
                   Companies
                 </a>
               </li>
@@ -93,7 +93,7 @@ const DashboardCandidatesHeader = () => {
                 href="#"
                 data-bs-toggle="modal"
                 data-bs-target="#loginPopupModal"
-                className="text-gray-700 hover:text-blue-600"
+                className="text-gray-700 hover:text-violet-600"
               >
                 Sign in
               </a>

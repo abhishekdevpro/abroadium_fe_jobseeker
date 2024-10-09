@@ -144,7 +144,7 @@ const ProfileVisalbilty = ({ onNext }) => {
         </div>
 
         <div className="form-group col-lg-7 col-md-12">
-          <button type="submit" className="theme-btn btn-style-one bg-blue-950">
+          <button type="submit" className="theme-btn btn-style-one bg-violet-950">
             Save & Next ➤
           </button>
         </div>

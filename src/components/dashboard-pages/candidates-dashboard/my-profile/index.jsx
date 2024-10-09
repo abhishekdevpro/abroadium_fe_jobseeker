@@ -49,14 +49,14 @@ const Index = () => {
                   onClick={() => setCurrentStep(step.id)}
                   className={`relative cursor-pointer py-2 w-full mx-2 text-center font-medium transition-colors duration-300 ${
                     currentStep === step.id
-                      ? "text-blue-900 text-xs border rounded-3xl bg-white"
-                      : "hover:bg-blue-300 hover:text-blue-800 bg-blue-800 text-xs text-white rounded-3xl"
+                      ? "text-violet-900 text-xs border rounded-3xl bg-white"
+                      : "hover:bg-violet-300 hover:text-violet-800 bg-violet-800 text-xs text-white rounded-3xl"
                   }`}
                 >
                   {step.title}
                   {index < steps.length - 1 && (
                     <span
-                      className={`absolute top-1 -right-6 h-2 mt-2.5 w-[24px] border-y bg-blue-800 ${
+                      className={`absolute top-1 -right-6 h-2 mt-2.5 w-[24px] border-y bg-violet-800 ${
                         currentStep === step.id ? "bg-white" : ""
                       }`}
                     />
@@ -68,10 +68,10 @@ const Index = () => {
 
           {/* Main Content */}
           <div className="p-6 mt-2 bg-gray-100 rounded-md">
-            <h4 className="text-lg ps-3 bg-blue-900 rounded-t-md w-full p-2 text-white">
+            <h4 className="text-lg ps-3 bg-violet-900 rounded-t-md w-full p-2 text-white">
               {steps[currentStep - 1].title}
             </h4>
-            <div className="bg-white p-6 shadow-lg border-2 border-blue-900 rounded-md">
+            <div className="bg-white p-6 shadow-lg border-2 border-violet-900 rounded-md">
               <div className="flex justify-between items-center mb-4">
                 {currentStep === 1 && (
                   <div className="flex items-center space-x-2">

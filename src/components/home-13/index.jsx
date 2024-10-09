@@ -86,7 +86,7 @@ const index = () => {
         <div className="auto-container">
           <div className="featured-column">
             <div className="sec-title text-center">
-              <h2 className="color-blue-dark fw-700">Latest Jobs</h2>
+              <h2 className="color-violet-dark fw-700">Latest Jobs</h2>
               <div className="text">
                 Know your worth and find the job that qualify your life
               </div>
@@ -120,7 +120,7 @@ const index = () => {
           <div className="row justify-content-between align-items-end">
             <div className="col-lg-6">
               <div className="sec-title mb-0">
-                <h2 className="color-blue-dark fw-700">
+                <h2 className="color-violet-dark fw-700">
                   Top Company Registered
                 </h2>
                 <div className="text">

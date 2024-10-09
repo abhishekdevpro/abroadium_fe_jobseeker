@@ -49,7 +49,7 @@ const DefaulHeader2 = () => {
                 </li>
                 <li className="border-l-2"></li>
                 <li>
-                  <a href="https://employer.sentryspot.co.uk/">
+                  <a href="https://employer.Abroadium.co.uk/">
                     <i className="fa-solid fa-user"></i> Post Job
                   </a>
                 </li>
@@ -65,7 +65,7 @@ const DefaulHeader2 = () => {
           {/* Sidebar for Mobile View */}
           <div className="md:hidden flex items-center">
             <Link to="/">
-              <img src="https://htmlsentryspot.vercel.app/img/company_logo.png" alt="Logo" className="h-10" />
+              <img src="https://abroadiumlanding.vercel.app/img/Abradium_logo.png" alt="Logo" className="h-10" />
             </Link>
           </div>
 
@@ -74,7 +74,7 @@ const DefaulHeader2 = () => {
             <div className="header-menu flex items-center">
               <div className="header-logo flex items-center">
                 <Link to="/">
-                  <img src="https://htmlsentryspot.vercel.app/img/company_logo.png" alt="Logo" className="h-10" />
+                  <img src="https://abroadiumlanding.vercel.app/img/Abradium_logo.png" alt="Logo" className="h-10" />
                 </Link>
                 <div className="main-menu ms-4">
                   <ul className="flex space-x-4">

@@ -27,7 +27,7 @@ const ContactInfoBox = ({ onNext }) => {
       Get a 70% higher chance of getting noticed by recruiters.
        Create your 60-second Video Profile and mark your first 
        impression even before meeting your prospective employers. <br/> <br/>
-      <button className="bg-blue-900 text-white px-2 py-1 rounded-sm ">Create Video Profile</button>
+      <button className="bg-violet-900 text-white px-2 py-1 rounded-sm ">Create Video Profile</button>
       </div>
         </div>
 

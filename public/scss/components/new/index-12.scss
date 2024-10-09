@@ -166,7 +166,7 @@
       color: var(--primary-color);
     }
   }
-  &.-blue-light {
+  &.-violet-light {
     background-color: rgba(var(--primary-color), 0.1);
     color: var(--primary-color);
     padding: 15px 50px;
@@ -178,7 +178,7 @@
       color: white;
     }
   }
-  &.-blue-dark {
+  &.-violet-dark {
     background-color: #131a51;
     color: white;
     padding: 15px 50px;
@@ -252,7 +252,7 @@
   margin-right: -40px !important;
 }
 
-.color-blue-dark {
+.color-violet-dark {
   color: #1a3454 !important;
 }
 

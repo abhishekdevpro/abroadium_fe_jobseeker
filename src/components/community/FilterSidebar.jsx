@@ -33,7 +33,7 @@ const FilterSidebar = () => {
                 <p className="text-xs my-2">
                 Discover and join groups with like-minded women who share your interests, profession, and lifestyle.
                 </p>
-                <button className="my-2 text-blue-950">Explore</button>
+                <button className="my-2 text-violet-950">Explore</button>
             </div>
             <div className="filters-outer text-center">
                 
@@ -47,7 +47,7 @@ const FilterSidebar = () => {
                 <p className="text-xs my-2">
                Get alerted when there are new employee reviews.
                 </p>
-                <button className="my-2 text-blue-950">Explore</button>
+                <button className="my-2 text-violet-950">Explore</button>
                 
             </div>
         </div>

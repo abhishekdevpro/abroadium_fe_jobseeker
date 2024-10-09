@@ -175,7 +175,7 @@ const handleLogin = () => {
             </div>
 
             <div className="max-w-xl mp-4">
-              <div className="mb-4 bg-white p-3 border-t-8 rounded-t-md border-blue-900">
+              <div className="mb-4 bg-white p-3 border-t-8 rounded-t-md border-violet-900">
                 <textarea
                   className="w-full p-3 font-medium text-xl bg-gray-100 text-black h-28 border-0"
                   value={content}
@@ -184,7 +184,7 @@ const handleLogin = () => {
                 />
                 <button
                   onClick={addPost}
-                  className="my-2 bg-blue-900 w-full text-lg text-white px-4 py-2.5 rounded hover:bg-blue-700"
+                  className="my-2 bg-violet-900 w-full text-lg text-white px-4 py-2.5 rounded hover:bg-violet-700"
                 >
                   Post
                 </button>
@@ -223,7 +223,7 @@ const handleLogin = () => {
                         htmlFor="file-upload"
                         className="flex items-center cursor-pointer mt-4 ms-2"
                       >
-                        <i className="fas fa-camera text-blue-600 mr-2 text-2xl"></i>
+                        <i className="fas fa-camera text-violet-600 mr-2 text-2xl"></i>
                         <span className="text-gray-700">Upload Image</span>
                         <input
                           type="file"
@@ -253,7 +253,7 @@ const handleLogin = () => {
                         <label
                           htmlFor="anonymous"
                           className={`flex items-center justify-center w-8 h-8 rounded-full cursor-pointer border border-gray-900 ${
-                            isAnonymous ? "bg-blue-900 text-white" : ""
+                            isAnonymous ? "bg-violet-900 text-white" : ""
                           }`}
                         >
                           <i
@@ -326,7 +326,7 @@ const handleLogin = () => {
                         {post.liked ? "likes" : ""}
                       </button>
                       <button
-                        className="mr-4 text-gray-500 hover:text-blue-500 text-base"
+                        className="mr-4 text-gray-500 hover:text-violet-500 text-base"
                         onClick={() =>
                           setActiveCommentPostId(
                             activeCommentPostId === post.id ? null : post.id
@@ -336,7 +336,7 @@ const handleLogin = () => {
                         <i className="fas fa-comment"></i>  Comment
                       </button>
                       <button
-                        className="mr-4 text-gray-500 hover:text-blue-500 text-base"
+                        className="mr-4 text-gray-500 hover:text-violet-500 text-base"
                         onClick={() => sharePost(post.id)}
                       >
                         <i className="fas fa-share"></i> Share
@@ -345,13 +345,13 @@ const handleLogin = () => {
                         <div className="absolute ms-56 mt-48 text-lg p-2 bg-white border  shadow-lg z-10">
                           <button
                             onClick={() => window.open(`https://www.facebook.com/sharer/sharer.php?u=https://example.com/post/${post.id}`, '_blank')}
-                            className="flex items-center text-blue-600 hover:text-blue-800 border-b p-2"
+                            className="flex items-center text-violet-600 hover:text-violet-800 border-b p-2"
                           >
                             <AiFillFacebook className="text-xl mr-2" /> Facebook
                           </button>
                           <button
                             onClick={() => window.open(`https://www.linkedin.com/shareArticle?mini=true&url=https://example.com/post/${post.id}`, '_blank')}
-                            className="flex items-center text-sky-700 hover:text-blue-900 mt-2 border-b p-2"
+                            className="flex items-center text-sky-700 hover:text-violet-900 mt-2 border-b p-2"
                           >
                             <AiFillLinkedin className="text-xl mr-2" /> LinkedIn
                           </button>
@@ -385,7 +385,7 @@ const handleLogin = () => {
       <label
         htmlFor="comment-anonymous"
         className={`flex items-center justify-center w-8 h-8 rounded-full cursor-pointer border border-gray-900 ${
-          isCommentAnonymous ? "bg-blue-900 text-white" : ""
+          isCommentAnonymous ? "bg-violet-900 text-white" : ""
         }`}
       >
         <i
@@ -401,7 +401,7 @@ const handleLogin = () => {
     </div>
     <button
       onClick={() => addComment(post.id)}
-      className="my-2 bg-blue-900 text-lg text-white px-4 py-1 w-60 rounded hover:bg-blue-700 "
+      className="my-2 bg-violet-900 text-lg text-white px-4 py-1 w-60 rounded hover:bg-violet-700 "
     >
       Post
     </button>
@@ -423,7 +423,7 @@ const handleLogin = () => {
           {post.feed_comments.length > 1 && (
             <button
               onClick={() => setShowAllComments(!showAllComments)}
-              className="text-blue-400 mt-2 text-lg hover:underline"
+              className="text-violet-400 mt-2 text-lg hover:underline"
             >
               {showAllComments ? "See less comments" : `See more comments...`}
             </button>

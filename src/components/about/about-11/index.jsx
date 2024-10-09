@@ -25,7 +25,7 @@ const index = () => {
                 </div>
                 <Link
                   to="/candidates-list-v3"
-                  className="theme-btn -blue-outline mt-30"
+                  className="theme-btn -violet-outline mt-30"
                 >
                   Explore More
                 </Link>

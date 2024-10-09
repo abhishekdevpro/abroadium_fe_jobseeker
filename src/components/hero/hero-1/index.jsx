@@ -15,7 +15,7 @@ const index = () => {
             >
               <div className="title-box">
                 <h3>
-                  There Are <span className=" text-blue-800">93,178</span> Postings
+                  There Are <span className=" text-violet-800">93,178</span> Postings
                   Here
                   <br /> For you!
                 </h3>

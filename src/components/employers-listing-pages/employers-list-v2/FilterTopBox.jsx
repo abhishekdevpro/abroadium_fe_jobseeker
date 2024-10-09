@@ -74,7 +74,7 @@ const FilterTopBox = () => {
         className="company-block-four col-xl-12 col-lg-6 col-md-6 col-sm-12 "
         key={company.id}
       >
-        <div className="inner-box text-start ms-3 bg-blue-500">
+        <div className="inner-box text-start ms-3 bg-violet-500">
           <button className="bookmark-btn">
             <span className="flaticon-bookmark"></span>
           </button>

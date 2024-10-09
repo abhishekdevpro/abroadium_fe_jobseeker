@@ -32,7 +32,7 @@ const FormContent = () => {
   
   return (
     <div className="form-inner">
-      <h3>Login to Sentry Spot</h3>
+      <h3>Login to Abroadium</h3>
 
       {/* <!--Login Form--> */}
       <form onSubmit={submitHandler}>
@@ -96,7 +96,7 @@ const FormContent = () => {
           <button
             type="submit"
             name="log-in"
-            className="theme-btn btn-style-one bg-blue-900"
+            className="theme-btn btn-style-one bg-violet-900"
             onClick={submitHandler}
             disabled={loading}
           >

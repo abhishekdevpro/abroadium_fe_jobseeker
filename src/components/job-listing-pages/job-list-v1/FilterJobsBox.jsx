@@ -83,7 +83,7 @@ const FilterJobsBox = () => {
             <div className="HomeBannerContent">
               <div className="BannerContent">
                 <h2>One Stop AI Enabled Career Portal</h2>
-                <h1>Your Career Journey Starts at SentrySpot</h1>
+                <h1>Your Career Journey Starts at Abroadium</h1>
                 <p>Your AI-powered gateway to a successful career in security services. Start your journey with smart tools for job searching, resume building, and more.</p>
                 <div className="BannerBtn">
                   <Link to={"/sentry-spot"}>
@@ -93,7 +93,7 @@ const FilterJobsBox = () => {
               <div className="HomeHeroMedia">
                 <div className="HomeSlider">
                   <div className="HeroSliderone">
-                    <img src="https://htmlsentryspot.vercel.app/img/home-1.webp" alt="Slide 1" />
+                    <img src="https://abroadiumlanding.vercel.app/img/home-1.webp" alt="Slide 1" />
                     <div className="BannerText">
                       <div className="BannerTextUpper">
                         <i className="fa-solid fa-medal" />
@@ -113,7 +113,7 @@ const FilterJobsBox = () => {
                     </div>
                   </div>
                   <div className="HeroSliderone">
-                    <img src="https://htmlsentryspot.vercel.app/img/home-2.webp" alt="Slide 2" />
+                    <img src="https://abroadiumlanding.vercel.app/img/home-2.webp" alt="Slide 2" />
                     <div className="BannerText">
                       <div className="BannerTextUpper">
                         <i className="fa-solid fa-medal" />
@@ -133,7 +133,7 @@ const FilterJobsBox = () => {
                     </div>
                   </div>
                   <div className="HeroSliderone">
-                    <img src="https://htmlsentryspot.vercel.app/img/home-3.webp" alt="Slide 3" />
+                    <img src="https://abroadiumlanding.vercel.app/img/home-3.webp" alt="Slide 3" />
                     <div className="BannerText">
                       <div className="BannerTextUpper">
                         <i className="fa-solid fa-medal" />
@@ -212,7 +212,7 @@ const FilterJobsBox = () => {
                 <div className="program-card marigold">
                   <i className="fa-solid fa-handshake" />
                   <div className="program-card-info">
-                    <div className="heading-md">Get Spotted with SentrySpot ID</div>
+                    <div className="heading-md">Get Spotted with Abroadium ID</div>
                     <button className="button-tertiary marigold">Get yours now</button>
                   </div>
                 </div>
@@ -241,27 +241,27 @@ const FilterJobsBox = () => {
           <div className="container">
             <div className="FaqBox">
               <div className="FaqImage">
-                <img src="https://htmlsentryspot.vercel.app/img/faqimge.webp" />
+                <img src="https://abroadiumlanding.vercel.app/img/faqimge.webp" />
               </div>
               <div className="FaqText">
-                <p className="font-extrabold">SentrySpot Community</p>
+                <p className="font-extrabold">Abroadium Community</p>
                 <h2>Join community to gain the support and resources you need for a smooth transition to a better career.</h2>
                 <details className="rounded-3xl">
-                  <summary>What is SentrySpot Community?</summary>
+                  <summary>What is Abroadium Community?</summary>
                   <div className="content text-white">
-                    <p>The SentrySpot Community is an online platform where job seekers can connect, learn new skills, and receive guidance to advance their careers in the security services industry.</p>
+                    <p>The Abroadium Community is an online platform where job seekers can connect, learn new skills, and receive guidance to advance their careers in the security services industry.</p>
                   </div>
                 </details>
                 <details className="rounded-3xl">
                   <summary>Is it free to use?</summary>
                   <div className="content">
-                    <p>Yes, the SentrySpot Community is free to join and use for job seekers looking to enhance their skills and career opportunities.</p>
+                    <p>Yes, the Abroadium Community is free to join and use for job seekers looking to enhance their skills and career opportunities.</p>
                   </div>
                 </details>
                 <details className="rounded-3xl">
                   <summary>How is this platform different?</summary>
                   <div className="content">
-                    <p>SentrySpot stands out with its AI-driven platform tailored specifically for the security services industry, offering personalized job recommendations, resume-building tools, and a supportive online community to help users advance their careers efficiently.</p>
+                    <p>Abroadium stands out with its AI-driven platform tailored specifically for the security services industry, offering personalized job recommendations, resume-building tools, and a supportive online community to help users advance their careers efficiently.</p>
                   </div>
                 </details>
                 <div className="FaqBtn">
@@ -298,7 +298,7 @@ const FilterJobsBox = () => {
         <div className="flex transition-transform duration-500 ease-in-out" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
           {currentJobs.map((job) => (
             <div key={job.id} className="flex-shrink-0 w-full md:w-1/4 p-2">
-              <div className="bg-blue-900 shadow-md rounded-lg p-4 flex flex-col">
+              <div className="bg-violet-900 shadow-md rounded-lg p-4 flex flex-col">
                 <i className="fa-brands fa-dropbox text-white text-3xl mb-2"></i>
                 <Link to={`/job-single-v1/${job.id}`}>
                 <h2 className="text-xl font-semibold text-white">{job.job_title || "Job Title"}</h2>
@@ -332,7 +332,7 @@ const FilterJobsBox = () => {
         <div className="TabSection">
           <div className="container">
             <div className="TabHead">
-              <h2>SentrySpot Careers - Training Programs &amp; Certifications</h2>
+              <h2>Abroadium Careers - Training Programs &amp; Certifications</h2>
               <p>With over 100,000 customers, from individuals to some of the most respected global brands</p>
             </div>
             <CoursesTabs/>
@@ -343,13 +343,13 @@ const FilterJobsBox = () => {
         <div className="Blog">
           <div className="container">
             <div className="BlogHeading">
-              Career Guidance by SentrySpot Editorial
+              Career Guidance by Abroadium Editorial
             </div>
             <div className="BlogsCards">
               <a href="https://blog.sentryspot.co.uk/2024/08/31/key-features-to-look-for-in-an-ai-resume-builder/">
                 <div className="BlogBoxs">
                   <div className="Blogs-Text">
-                    <img src="https://blog.sentryspot.co.uk/wp-content/uploads/2024/08/Untitled-design-5.jpg" />
+                    <img src="https://blog.Abroadium.co.uk/wp-content/uploads/2024/08/Untitled-design-5.jpg" />
                     <div className="BlogInfoContainer">
                       <div className="Category">
                         Career Discovery
@@ -366,7 +366,7 @@ const FilterJobsBox = () => {
               <a href="https://blog.sentryspot.co.uk/2024/08/29/ai-and-bias-in-hiring-exploring-how-ai-can-perpetuate-or-reduce-bias-in-the-hiring-process/">
                 <div className="BlogBoxs">
                   <div className="Blogs-Text">
-                     <img src="https://blog.sentryspot.co.uk/wp-content/uploads/2024/08/Untitled-design-4.jpg" />
+                     <img src="https://blog.Abroadium.co.uk/wp-content/uploads/2024/08/Untitled-design-4.jpg" />
                     <div className="BlogInfoContainer">
                       <div className="Category">
                         Career Discovery
@@ -380,10 +380,10 @@ const FilterJobsBox = () => {
                   </div>
                 </div>
               </a>
-              <a href="https://blog.sentryspot.co.uk/2024/08/29/most-common-resume-mistakes-and-how-to-avoid-them-insights-from-sentry-spot/">
+              <a href="https://blog.Abroadium.co.uk/2024/08/29/most-common-resume-mistakes-and-how-to-avoid-them-insights-from-sentry-spot/">
                 <div className="BlogBoxs">
                   <div className="Blogs-Text">
-                     <img src="https://blog.sentryspot.co.uk/wp-content/uploads/2024/08/Untitled-design.jpg" />
+                     <img src="https://blog.Abroadium.co.uk/wp-content/uploads/2024/08/Untitled-design.jpg" />
                     <div className="BlogInfoContainer">
                       <div className="Category">
                         Career Discovery
@@ -398,7 +398,7 @@ const FilterJobsBox = () => {
                 </div>
               </a>
             </div>
-            <div className="BlogBtn"><Link to={"https://blog.sentryspot.co.uk/"}>
+            <div className="BlogBtn"><Link to={"https://blog.Abroadium.co.uk/"}>
               <button type="button">Visit our Blog Section</button></Link>
             </div>
           </div>
@@ -407,12 +407,12 @@ const FilterJobsBox = () => {
           <div className="container">
             <div className="Talkbox">
               <div className="TalkInfo">
-                <h2>Interested in Becoming a SentrySpot Partner?</h2>
+                <h2>Interested in Becoming a Abroadium Partner?</h2>
                 <div className="TalkBox mt-5">
-                  <a href="mailto:Partners@sentryspot.co.uk" className="mt-5">Lets Talk</a>
+                  <a href="mailto:Partners@Abroadium.co.uk" className="mt-5">Lets Talk</a>
                 </div>	
               </div>
-              <img src="	https://htmlsentryspot.vercel.app/img/Partner-CTA-block.webp" />
+              <img src="	https://abroadiumlanding.vercel.app/img/Partner-CTA-block.webp" />
             </div>
           </div>
         </div>

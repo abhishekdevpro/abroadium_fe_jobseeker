@@ -128,7 +128,7 @@ function Testpaper() {
       <div className="fixed inset-0 bg-gray-900 bg-opacity-75 flex items-center justify-center">
           <div className="loader ease-linear rounded-full border-8 border-t-8 border-gray-900 h-64 w-64 pt-20 ps-16">Please Wait..</div>
         </div>
-      <h2 className='text-blue-950'>Hold On A Second! We're Processing your request...!</h2>
+      <h2 className='text-violet-950'>Hold On A Second! We're Processing your request...!</h2>
       <p className="p-0 m-0 " style={{ color: "red", fontWeight: "500" }}>
         Don't Shut or Back Your Window!
       </p>
@@ -152,7 +152,7 @@ function Testpaper() {
               <h3>Wrong Answer: {results.wrong_answer}</h3>
               <h3 className='m-2'>Percentage: {Math.floor(results.Percentage)}%</h3>
               <button
-                className="p-2 bg-blue-950 rounded-md text-white hover:bg-blue-950 mt-4"
+                className="p-2 bg-violet-950 rounded-md text-white hover:bg-violet-950 mt-4"
                 onClick={handleBack}
               >
                 Back
@@ -180,8 +180,8 @@ function Testpaper() {
             </ul>
             <div className="flex justify-between ">
               <button
-                className={`p-2 bg-blue-950 rounded-md text-white hover:bg-blue-950 mt-4 ${
-                  currentQuestionIndex === 0 ? 'opacity-50 cursor-not-allowed' : 'hover:bg-blue-700'
+                className={`p-2 bg-violet-950 rounded-md text-white hover:bg-violet-950 mt-4 ${
+                  currentQuestionIndex === 0 ? 'opacity-50 cursor-not-allowed' : 'hover:bg-violet-700'
                 }`}
                 onClick={handlePrevious}
                 disabled={currentQuestionIndex === 0}
@@ -197,7 +197,7 @@ function Testpaper() {
                 </button>
               ) : (
                 <button
-                  className="p-2  bg-blue-950 rounded-md text-white hover:bg-blue-950 mt-4"
+                  className="p-2  bg-violet-950 rounded-md text-white hover:bg-violet-950 mt-4"
                   onClick={handleNext}
                 >
                  ↪️ Next

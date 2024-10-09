@@ -16,8 +16,8 @@ import { Link, useParams } from "react-router-dom";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {
-  title: "Job Single Dynamic V1 || sentryspot - Job Board ReactJs Template",
-  description: "sentryspot - Job Board ReactJs Template",
+  title: "Job Single Dynamic V1 || Abroadium - Job Board ReactJs Template",
+  description: "Abroadium - Job Board ReactJs Template",
 };
 
 const JobSingleDynamicV1 = () => {

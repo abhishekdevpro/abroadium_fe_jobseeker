@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Register = () => {
   return (
     <div className="form-inner">
-      <h4 className="text-lg mb-4 text-center">Create a Free SentrySpot Account</h4>
+      <h4 className="text-lg mb-4 text-center">Create a Free Abroadium Account</h4>
 
       {/* <Tabs>
         <div className="form-group register-dual">

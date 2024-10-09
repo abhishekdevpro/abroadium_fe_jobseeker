@@ -10,7 +10,7 @@ const index = ({ footerStyle = "" }) => {
 			<div class="menu-section">
 				<div class="footer-one">
 					<div class="logo">
-						<img src="https://htmlsentryspot.vercel.app/img/company_logo_white.png"/>
+						<img src="https://abroadiumlanding.vercel.app/img/Abradium_logo.png"/>
 						<div class="social-mdeai">
 							<a href=""><i class="fa-brands fa-linkedin-in"></i></a>
 							<a href=""><i class="fa-brands fa-facebook"></i></a>
@@ -23,7 +23,7 @@ const index = ({ footerStyle = "" }) => {
 					<div class="footer-menu">
 						<h2>Our services</h2>
 						<ul>
-							<li><a href="">Why sentryspot?</a></li>
+							<li><a href="">Why Abroadium?</a></li>
 							<li><a href="">Recruiter Advice</a></li>
 							<li><a href="">Customer success</a></li>
 							<li><a href="">Our audience</a></li>
@@ -55,8 +55,8 @@ const index = ({ footerStyle = "" }) => {
 							<li><a href="">Find a job</a></li>
 							<li><a href="">Find a course</a></li>
 							<li><a href="">Advertise a course</a></li>
-							<li><a href="">Sentryspot Global</a></li>
-							<li><a href="">Sentryspot Screening</a></li>
+							<li><a href="">Abroadium Global</a></li>
+							<li><a href="">Abroadium Screening</a></li>
 						</ul>
 					</div>
 				</div>

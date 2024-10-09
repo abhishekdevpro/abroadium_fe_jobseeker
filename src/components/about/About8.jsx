@@ -40,7 +40,7 @@ const About8 = () => {
               <div className="content-column">
                 <div className="inner-column -no-padding" data-aos="fade-right">
                   <div className="sec-title">
-                    <h2 className="color-blue-dark fw-700">
+                    <h2 className="color-violet-dark fw-700">
                       Perform during your
                       <br /> interview
                     </h2>

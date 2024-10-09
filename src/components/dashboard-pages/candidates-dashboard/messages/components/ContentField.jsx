@@ -10,7 +10,7 @@ const ChatBoxContentField = () => {
   const [activeChat, setActiveChat] = useState(15); // Default active chat ID
 
   useEffect(() => {
-    const ws = new WebSocket('wss://api.sentryspot.co.uk/ws');
+    const ws = new WebSocket('wss://api.Abroadium.co.uk/ws');
 
     ws.onopen = () => {
       console.log('WebSocket connection opened');
@@ -66,13 +66,13 @@ const ChatBoxContentField = () => {
   return (
     <div className="flex h-screen bg- rounded-lg ">
       {/* Sidebar: List of Conversations */}
-      <div className="w-1/4 bg-blue-800 text-white border-r border-blue-700 overflow-y-auto rounded-lg">
-        <div className="p-4 border-b border-blue-700">
+      <div className="w-1/4 bg-violet-800 text-white border-r border-violet-700 overflow-y-auto rounded-lg">
+        <div className="p-4 border-b border-violet-700">
           <h2 className="text-lg font-semibold">Messages</h2>
         </div>
         <div>
           <div
-            className="flex items-center cursor-pointer p-4 hover:bg-blue-700 border-b border-blue-500 bg-blue-500"
+            className="flex items-center cursor-pointer p-4 hover:bg-violet-700 border-b border-violet-500 bg-violet-500"
             onClick={() => setActiveChat(15)}
           >
             <img
@@ -82,19 +82,19 @@ const ChatBoxContentField = () => {
             />
             <div>
               <p className="font-medium">John Snow</p>
-              <p className="text-sm text-blue-400">Last message preview...</p>
+              <p className="text-sm text-violet-400">Last message preview...</p>
             </div>
-            <span className="ml-auto text-sm text-blue-400">4:30 PM</span>
-            <span className="bg-blue-500 text-white text-xs rounded-full w-6 h-6 flex items-center justify-center ml-2">3</span>
+            <span className="ml-auto text-sm text-violet-400">4:30 PM</span>
+            <span className="bg-violet-500 text-white text-xs rounded-full w-6 h-6 flex items-center justify-center ml-2">3</span>
           </div>
           {/* Add more chat items here */}
         </div>
       </div>
 
       {/* Main: Active Chat */}
-      <div className="flex-1 flex flex-col bg-blue-900 rounded-lg">
+      <div className="flex-1 flex flex-col bg-violet-900 rounded-lg">
         {/* Chat Header */}
-        <div className="p-4 border-b border-blue-700 flex items-center">
+        <div className="p-4 border-b border-violet-700 flex items-center">
           <img
             src="https://www.shutterstock.com/image-vector/vector-flat-illustration-grayscale-avatar-600nw-2264922221.jpg"
             alt="User avatar"
@@ -102,7 +102,7 @@ const ChatBoxContentField = () => {
           />
           <div>
             <h2 className="text-lg font-semibold text-white">John Snow</h2>
-            <p className="text-sm text-blue-400">Online</p>
+            <p className="text-sm text-violet-400">Online</p>
           </div>
         </div>
 
@@ -122,27 +122,27 @@ const ChatBoxContentField = () => {
                   />
                 )}
                 <div
-                  className={`bg-${msg.sender === 'John' ? 'blue-700' : 'blue-600'} text-white p-3 rounded-xl bg-blue-400  max-w-xs`}
+                  className={`bg-${msg.sender === 'John' ? 'blue-700' : 'blue-600'} text-white p-3 rounded-xl bg-violet-400  max-w-xs`}
                 >
                   <p className="text-white break-words">{msg.content}</p>
                 </div>
-                <span className="text-xs text-blue-400 self-end">{msg.time}</span>
+                <span className="text-xs text-violet-400 self-end">{msg.time}</span>
               </div>
             ))}
           </div>
         </div>
 
         {/* Input Area */}
-        <div className="border-t border-blue-700 bg-blue-900 p-4 flex items-center">
+        <div className="border-t border-violet-700 bg-violet-900 p-4 flex items-center">
           <input
             type="text"
             placeholder="Type a message"
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
-            className="flex-1 bg-blue-800 text-white p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="flex-1 bg-violet-800 text-white p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-violet-500"
           />
           <button
-            className="bg-blue-600 text-white px-4 py-2 rounded-lg ml-2 hover:bg-blue-700 transition"
+            className="bg-violet-600 text-white px-4 py-2 rounded-lg ml-2 hover:bg-violet-700 transition"
             onClick={sendMessage}
           ><FaTelegram/>
           
@@ -151,7 +151,7 @@ const ChatBoxContentField = () => {
       </div>
 
       {/* Right Panel: Profile Info
-      <div className="w-1/4 bg-blue-800 text-white p-4 border-l border-blue-700">
+      <div className="w-1/4 bg-violet-800 text-white p-4 border-l border-violet-700">
         <div className="flex items-center space-x-4">
           <img
             src="https://www.shutterstock.com/image-vector/vector-flat-illustration-grayscale-avatar-600nw-2264922221.jpg"
@@ -160,10 +160,10 @@ const ChatBoxContentField = () => {
           />
           <div>
             <h3 className="text-lg font-semibold">Annabel White</h3>
-            <p className="text-sm text-blue-400">7,876 trips | Joined Sep 2022</p>
+            <p className="text-sm text-violet-400">7,876 trips | Joined Sep 2022</p>
           </div>
         </div>
-        <p className="mt-4 text-sm text-blue-400">
+        <p className="mt-4 text-sm text-violet-400">
           Hi, I'm Annabel! I have a rich fleet of spaceships for unforgettable journeys into space!
         </p>
       

@@ -55,7 +55,7 @@ const Index = () => {
                   <button
                     className={`tab-button py-2 px-4 ${
                       activeTab === "tab1"
-                        ? "border-b-2 rounded-sm border-blue-500 text-blue-500"
+                        ? "border-b-2 rounded-sm border-violet-500 text-violet-500"
                         : "text-gray-500"
                     }`}
                     onClick={() => handleTabClick("tab1")}
@@ -65,7 +65,7 @@ const Index = () => {
                   <button
                     className={`tab-button py-2 px-4 ${
                       activeTab === "tab2"
-                        ? "border-b-2 border-blue-500 text-blue-500"
+                        ? "border-b-2 border-violet-500 text-violet-500"
                         : "text-gray-500"
                     }`}
                     onClick={() => handleTabClick("tab2")}
@@ -75,7 +75,7 @@ const Index = () => {
                   <button
                     className={`tab-button py-2 px-4 ${
                       activeTab === "tab3"
-                        ? "border-b-2 border-blue-500 text-blue-500"
+                        ? "border-b-2 border-violet-500 text-violet-500"
                         : "text-gray-500"
                     }`}
                     onClick={() => handleTabClick("tab3")}

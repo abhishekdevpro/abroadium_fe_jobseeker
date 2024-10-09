@@ -31,7 +31,7 @@ const HeaderNavContent = () => {
           </li>
           <li
             className={`${
-              isActiveParent(homeItems, pathname) ? "text-blue-950" : ""
+              isActiveParent(homeItems, pathname) ? "text-violet-950" : ""
             } dropdown`}
           >
             <span>AI Resum</span>
@@ -104,7 +104,7 @@ const HeaderNavContent = () => {
                 : ""
             } dropdown`}
           >
-            <span>SentrySpot ID</span>
+            <span>Abroadium ID</span>
             <ul>
               {/*{employerItems.map((item) => (
                 <li className="dropdown" key={item.id}>
@@ -136,7 +136,7 @@ const HeaderNavContent = () => {
               <li
                 className={pathname?.includes("/sentry-spot") ? "current" : ""}
               >
-                <Link to="/sentry-spot">sentryspot id </Link>
+                <Link to="/sentry-spot">Abroadium id </Link>
                 <Link to="/candidates-dashboard/my-profile">
                   Candidate profile{" "}
                 </Link>
@@ -244,7 +244,7 @@ const HeaderNavContent = () => {
               isActiveParentChaild(blogItems, pathname) ? "current" : ""
             } dropdown`}
           >
-            <Link to={"https://blog.sentryspot.co.uk/"}> Resources</Link>
+            <Link to={"https://blog.Abroadium.co.uk/"}> Resources</Link>
             {/* <ul>
               {blogItems.map((item, i) => (
                 <li

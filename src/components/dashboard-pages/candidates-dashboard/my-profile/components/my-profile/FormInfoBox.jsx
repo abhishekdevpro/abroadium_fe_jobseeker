@@ -59,7 +59,7 @@ const FormInfoBox = () => {
         </label>
         
       </div>
-      <div className="bg-blue-800 w-28 mt-2 py-1 ms-2 text-white text-sm text-center rounded-lg">
+      <div className="bg-violet-800 w-28 mt-2 py-1 ms-2 text-white text-sm text-center rounded-lg">
         Add Picture
       </div>
       </div>
@@ -224,7 +224,7 @@ const FormInfoBox = () => {
 
         {/* <!-- Input --> */}
         <div className="form-group col-lg-6 col-md-12">
-          <button type="submit" className="theme-btn btn-style-one bg-blue-900">
+          <button type="submit" className="theme-btn btn-style-one bg-violet-900">
             Save
           </button>
         </div>
