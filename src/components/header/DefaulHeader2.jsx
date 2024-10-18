@@ -27,8 +27,8 @@ const DefaulHeader2 = () => {
   return (
     <>
       {!userToken && ( // Only show the top header if the user is not logged in
-        <div className="TopHeader">
-        <div className="container">
+        <div className="TopHeader ">
+        <div className="container ">
           <div className="TopMenu">
             <div className="TopSocial hidden lg:flex justify-center">
               <i className="fa-brands fa-facebook mx-2"></i>
@@ -60,25 +60,25 @@ const DefaulHeader2 = () => {
       </div>
       
       )}
-      <div className={`header ${navbar ? 'bg-white shadow-md' : 'bg-transparent'} transition-all duration-300`}>
-        <div className="container flex justify-between items-center">
+      <div className="header">
+        <div className="container flex justify-between items-center header">
           {/* Sidebar for Mobile View */}
           <div className="md:hidden flex items-center">
             <Link to="/">
-              <img src="https://abroadiumlanding.vercel.app/img/Abradium_logo.png" alt="Logo" className="h-10" />
+              <img src="https://abroadiumlandingemployee.vercel.app/assets/logo-c5bcd0df.png" alt="Logo" className="h-10" />
             </Link>
           </div>
 
           {/* Main Menu for Desktop View */}
-          <div className="hidden md:flex items-center">
-            <div className="header-menu flex items-center">
+          <div className="hidden md:flex items-center header">
+            <div className="header-menu flex items-center header">
               <div className="header-logo flex items-center">
                 <Link to="/">
-                  <img src="https://abroadiumlanding.vercel.app/img/Abradium_logo.png" alt="Logo" className="h-10" />
+                  <img src="https://abroadiumlandingemployee.vercel.app/assets/logo-c5bcd0df.png" alt="Logo" className="h-10" />
                 </Link>
                 <div className="main-menu ms-4">
                   <ul className="flex space-x-4">
-                    <li>
+                    <li >
                       <a href="/sentry-spot">AI Services</a>
                     </li>
                     <li>
@@ -95,7 +95,7 @@ const DefaulHeader2 = () => {
 
           {/* Side Menu */}
           <div className="side-menu flex items-center">
-            <div className="btn-box flex items-center">
+            <div className="btn-box flex items-center w-80">
               {userToken ? (
                 <Button
                   className="bg-gray-500 p-3 duration-500 hover:bg-[#E60278] ml-2"
@@ -107,13 +107,13 @@ const DefaulHeader2 = () => {
                   <IoLogOutOutline size={24} />
                 </Button>
               ) : (
-                <a href="#" data-bs-toggle="modal" data-bs-target="#loginPopupModal" className="mr-2 my-4">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#loginPopupModal" className=" my-4 text-white">
                   Sign in
                 </a>
               )}
               {!userToken && (
                 <Link to={"/sentry-spot"}>
-                  <button type="button" className="register-btn hidden lg:flex ">
+                  <button type="button" className="register-btn p-2 hidden lg:flex ">
                     Create Your AbroadiumID
                   </button>
                 </Link>

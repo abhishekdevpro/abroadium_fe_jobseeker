@@ -1,16 +1,21 @@
 @font-face {
-    font-family: myFirstFont;
-    src: url(Ubuntu/Ubuntu-Medium.ttf);
-  }
-  body{
-      margin: 0;
-      padding: 0;
-      font-family: myFirstFont;
-      color: #fff;
-      letter-spacing: 1px;
-      width:100%;
-      background-color: #42317a;
-  }
+    font-family: 'Ubuntu';
+    src: url('Ubuntu/Ubuntu-Medium.ttf') format('truetype'),
+         url('Ubuntu/Ubuntu-Medium.woff2') format('woff2'),
+         url('Ubuntu/Ubuntu-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+    width: 100%;
+    background-color: #42317a;
+}
   img{
       width: 100%;
   }
@@ -45,7 +50,7 @@
   }
   .TopHeader {
       width: 100%;
-      background: #0f0d30;
+      background: #877f91;
       text-align: -webkit-center;
   }
   .TopMenu {
@@ -56,7 +61,7 @@
   }
   .TopSocial i {
       background: #c42eb5;
-      color: #0f0d30;
+      color: #f2f2f2;
       font-size: 18px;
       padding: 10px;
       border-radius: 20px;
@@ -74,7 +79,7 @@
       letter-spacing: 1px;
   }
   .main-menu a{
-      color: #0f0d30;
+      color: #ffffff;
       text-decoration: none;
   }
   .main-menu a:hover{
@@ -105,11 +110,11 @@
   }
   button.register-btn {
       background: transparent;
-      border: 1px solid #0f0d30;
-      color: #0f0d30;
+      border: 1px solid #fefeff;
+      color: #ffffff;
   }
   button.register-btn:hover {
-      border: 1px solid #42317b;
+      border: 1px solid #ffffff;
       background: transparent;
       color: #42317b;
   }
@@ -120,7 +125,7 @@
   .header {
       width: 100%;
       text-align: -webkit-center;
-      background: #c42eb5;
+      background: #4C3957;
       box-shadow: 0 10px 30px 0 rgba(0, 0, 0, .05);
   }
   .header-menu {

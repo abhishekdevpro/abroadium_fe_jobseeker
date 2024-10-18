@@ -13,6 +13,7 @@ import { useLocation } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { Button } from "../ui/button";
 import { IoLogOutOutline } from "react-icons/io5";
+import { FaEnvelope } from "react-icons/fa";
 
 
 const DashboardCandidatesHeader = () => {
@@ -51,7 +52,7 @@ const DashboardCandidatesHeader = () => {
         <div className="header-logo flex items-center">
           <a href="/">
             <img
-              src="https://abroadiumlanding.vercel.app/img/Abradium_logo.png"
+              src="https://abroadiumlandingemployee.vercel.app/assets/logo-c5bcd0df.png"
               alt="Company Logo"
               className="h-10 w-auto"
             />
@@ -59,17 +60,17 @@ const DashboardCandidatesHeader = () => {
           <div className="main-menu ms-4 hidden md:flex">
             <ul className="flex space-x-4">
               <li>
-                <a href="" className="text-gray-700 hover:text-violet-600">
+                <a href="" className="text-white hover:text-violet-600">
                   AI Services
                 </a>
               </li>
               <li>
-                <a href="" className="text-gray-700 hover:text-violet-600">
+                <a href="" className="text-white hover:text-violet-600">
                   Hiring Advice
                 </a>
               </li>
               <li>
-                <a href="" className="text-gray-700 hover:text-violet-600">
+                <a href="" className="text-white hover:text-violet-600">
                   Companies
                 </a>
               </li>
@@ -101,6 +102,7 @@ const DashboardCandidatesHeader = () => {
            
           </div>
           <i className="fa-solid fa-bell text-2xl mx-3"></i>
+          <FaEnvelope className="text-white text-xl" />
         </div>
       </div>
       {/* Responsive Menu for Mobile Devices */}
