@@ -38,18 +38,18 @@ const DefaulHeader2 = () => {
             <div className="TopMenu">
               <ul className="flex">
                 <li>
-                  <a href="/job-list-v7">
+                  <a href="/job-list-v7" className="font-bold">
                     <i className="fa-solid fa-compass"></i> Jobs
                   </a>
                 </li>
                 <li>
-                  <a href="">
+                  <a href="" className="font-bold">
                     <i className="fa-solid fa-medal"></i> Careers & Training
                   </a>
                 </li>
-                <li className="border-l-2"></li>
+                <li className="border-l-2" ></li>
                 <li>
-                  <a href="https://employer.abroadium.com/">
+                  <a href="https://employer.abroadium.com/" className="font-bold">
                     <i className="fa-solid fa-user"></i> Post Job
                   </a>
                 </li>
@@ -79,13 +79,13 @@ const DefaulHeader2 = () => {
                 <div className="main-menu ms-4">
                   <ul className="flex space-x-4">
                     <li >
-                      <a href="/sentry-spot">AI Services</a>
+                      <a href="/sentry-spot" className="font-bold">AI Services</a>
                     </li>
                     <li>
-                      <a href="https://blog.abroadium.com/">Hiring Advice</a>
+                      <a href="https://blog.abroadium.com/" className="font-bold">Hiring Advice</a>
                     </li>
                     <li>
-                      <a href="">Companies</a>
+                      <a href="" className="font-bold">Companies</a>
                     </li>
                   </ul>
                 </div>
